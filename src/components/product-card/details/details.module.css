@@ -1,5 +1,8 @@
 .container {
-  padding: 1.7em;
+  padding: 1.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
 
 @media (--breakpoint-mobile) {
