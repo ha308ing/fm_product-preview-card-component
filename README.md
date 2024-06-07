@@ -19,3 +19,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [autoprefixer](https://github.com/postcss/autoprefixer)
 - [pixel glass](https://github.com/yoksel/pixel-glass-js/)
 - [browserslist](https://browsersl.ist/)
+
+### Links
+
+- [Solution repo](https://github.com/ha308ing/fm_product-preview-card-component)
+- [Solution demo](https://cheerful-pegasus-a99a30.netlify.app/)
