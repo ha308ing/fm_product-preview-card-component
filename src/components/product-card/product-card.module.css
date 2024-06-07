@@ -1,0 +1,27 @@
+.card {
+  composes: text-sans from global;
+  font-size: 0.875rem;
+  background-color: var(--white);
+  color: var(--dark-grayish-blue);
+  border-radius: 0.7em;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template:
+    "image" auto
+    "info" auto / 1fr;
+  max-width: 24.5em;
+}
+
+@media (--breakpoint-mobile) {
+  .card {
+    max-width: initial;
+    width: 600px;
+    grid-template:
+      "image info"
+      "image info" 1fr / 50% 50%;
+  }
+}

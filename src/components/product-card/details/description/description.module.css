@@ -1,0 +1,11 @@
+.description {
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+@media (--breakpoint-mobile) {
+  .description {
+    margin-bottom: 25px;
+    padding-left: 1px;
+  }
+}

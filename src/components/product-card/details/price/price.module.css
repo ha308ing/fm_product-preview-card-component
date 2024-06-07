@@ -1,0 +1,13 @@
+.price {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-bottom: 16px;
+}
+
+@media (--breakpoint-mobile) {
+  .price {
+    margin-bottom: 26px;
+    padding-left: 1px;
+  }
+}

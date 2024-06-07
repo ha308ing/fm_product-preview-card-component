@@ -1,0 +1,12 @@
+.category {
+  text-transform: uppercase;
+  letter-spacing: 0.65ch;
+  margin-bottom: 1.1em;
+  font-size: 0.85em;
+}
+
+@media (--breakpoint-mobile) {
+  .category {
+    margin-bottom: 21px;
+  }
+}

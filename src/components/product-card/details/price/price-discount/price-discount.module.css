@@ -1,0 +1,6 @@
+.priceDiscount {
+  composes: text-serif from global;
+  color: var(--dark-cyan);
+  font-size: 2rem;
+  padding-left: 0.6px;
+}

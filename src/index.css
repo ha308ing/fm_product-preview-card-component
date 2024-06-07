@@ -1,0 +1,20 @@
+@import url("/node_modules/minireset.css/minireset.min.css");
+
+:root {
+  font-size: 100%;
+}
+
+.text-sans {
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.text-sans-bold {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.text-serif {
+  font-family: Fraunces;
+  font-weight: 700;
+}

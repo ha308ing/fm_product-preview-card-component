@@ -1,0 +1,11 @@
+.priceFull {
+  composes: text-regular from global;
+  text-decoration: line-through;
+  font-size: 0.8rem;
+}
+
+@media (--breakpoint-mobile) {
+  .priceFull {
+    margin-top: -2px;
+  }
+}

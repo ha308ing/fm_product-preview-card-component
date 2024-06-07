@@ -1,0 +1,13 @@
+HTML {
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  /* Mobile layout by default */
+  background-image: url("/design/mobile-design.jpg");
+}
+/* Tablet */
+@media (--breakpoint-mobile) {
+  HTML {
+    /* Tablet layout */
+    background-image: url("/design/desktop-design.jpg");
+  }
+}

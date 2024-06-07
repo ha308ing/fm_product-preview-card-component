@@ -1,0 +1,45 @@
+.button {
+  composes: text-sans-bold from global;
+  display: block;
+  color: var(--white);
+  background-color: var(--dark-cyan);
+  border: none;
+  inline-size: 99.6%;
+  text-align: center;
+  padding: 15px 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  gap: 9px;
+  border-radius: 8px;
+  min-inline-size: 20ch;
+  margin-left: 2px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--very-dark-cyan);
+  }
+}
+
+.button_icon {
+  width: 15px;
+  position: relative;
+  left: -1px;
+}
+
+.button_text {
+  font-size: 14px;
+}
+
+@media (--breakpoint-mobile) {
+  .button {
+    margin-left: 1px;
+    padding-left: 2px;
+  }
+
+  .button_text {
+    margin-left: 1px;
+  }
+}

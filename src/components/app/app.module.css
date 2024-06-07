@@ -1,0 +1,6 @@
+.main {
+  display: grid;
+  place-content: center;
+  min-block-size: 100vh;
+  background-color: var(--cream);
+}
